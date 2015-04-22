@@ -29,7 +29,7 @@ MAILCONTENT="quiet"
 MAXATTSIZE="4000"
 
 # Email Address to send mail to? (user@domain.com)
-MAILADDR="admin@suchpool.pw"
+MAILADDR="your@email.pls"
 
 
 # ============================================================
