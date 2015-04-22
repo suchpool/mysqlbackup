@@ -1,12 +1,14 @@
 #!/bin/bash
 #
 # MySQL Backup Script
+# This scripts includes functionnality for the pigz compression utility. We recommend you use it as it's lighter and takes more advantage of the hardware to compress dumps a lot faster.
+# Modify COMP=gzip for COMP=pigz on line 57 below.
 
 # Username to access the MySQL server e.g. dbuser
 USERNAME=root
 
 # Username to access the MySQL server e.g. password
-PASSWORD=`yourpassbro`
+PASSWORD="yourpassbro"
 
 # Host name (or IP address) of MySQL server e.g localhost
 DBHOST=localhost
